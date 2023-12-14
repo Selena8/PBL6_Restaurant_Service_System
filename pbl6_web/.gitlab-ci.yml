@@ -1,0 +1,20 @@
+stages:
+  - deploy
+
+variables:
+
+deploy:
+  tags:
+    - FE
+  stage: deploy
+  script:
+    - docker stop Fe || true && docker rm Fe || true
+    - docker image rm fe || true
+    - docker build -t fe .
+    - docker run -dt -p 5001:3000 --rm --name Fe fe
+    - docker logs Fe
+  only:
+    - main
+    - develop
+    - /^release\/.*/
+    - /^hotfix\/.*/

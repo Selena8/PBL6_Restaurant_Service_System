@@ -1,0 +1,303 @@
+import 'package:flutter/material.dart';
+import 'package:restaurant_app/helper/asset_helper.dart';
+
+class Product {
+  Product({
+    required this.uri,
+    required this.price,
+    required this.star,
+    required this.name,
+    required this.shortDesc,
+    required this.numberOfRate,
+  });
+
+  UniqueKey? id = UniqueKey();
+  String uri;
+  double price;
+  double star;
+  String name;
+  String shortDesc;
+  String numberOfRate;
+
+  static List<Product> productList = [
+    Product(
+      uri: AssetHelper.imageSalmonSalad,
+      price: 5.50,
+      star: 4.5,
+      name: 'Salmon Salad',
+      shortDesc: 'Baked salmon fish',
+      numberOfRate: "25+",
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 8.25,
+      star: 4.5,
+      name: 'Salmon Pizza',
+      shortDesc: 'Baked salmon Pizza',
+      numberOfRate: "25+",
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonSalad,
+      price: 5.50,
+      star: 4.5,
+      name: 'Salmon Salad',
+      shortDesc: 'Baked salmon fish',
+      numberOfRate: "25+",
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 8.25,
+      star: 4.5,
+      name: 'Salmon Pizza',
+      shortDesc: 'Baked salmon Pizza',
+      numberOfRate: "25+",
+    ),
+  ];
+  static List<Product> mealList = [
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 7.99,
+      star: 4.2,
+      name: 'Beef Steak',
+      shortDesc: 'Grilled beef steak',
+      numberOfRate: '15+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 6.75,
+      star: 4.0,
+      name: 'Chicken Wings',
+      shortDesc: 'Spicy chicken wings',
+      numberOfRate: '20+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 9.99,
+      star: 4.7,
+      name: 'Pork Ribs',
+      shortDesc: 'Slow-cooked pork ribs',
+      numberOfRate: '10+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 8.50,
+      star: 4.4,
+      name: 'Lamb Chops',
+      shortDesc: 'Grilled lamb chops',
+      numberOfRate: '12+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 12.99,
+      star: 4.6,
+      name: 'BBQ Pulled Pork',
+      shortDesc: 'Slow-cooked pulled pork with BBQ sauce',
+      numberOfRate: '18+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 10.25,
+      star: 4.3,
+      name: 'Turkey Sandwich',
+      shortDesc: 'Roast turkey sandwich with fresh veggies',
+      numberOfRate: '8+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 11.99,
+      star: 4.5,
+      name: 'Bacon-Wrapped Shrimp',
+      shortDesc: 'Shrimp wrapped in crispy bacon',
+      numberOfRate: '14+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 7.25,
+      star: 4.1,
+      name: 'Steak Fajitas',
+      shortDesc: 'Sizzling steak fajitas with peppers and onions',
+      numberOfRate: '16+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 8.99,
+      star: 4.4,
+      name: 'Honey Glazed Ham',
+      shortDesc: 'Baked honey glazed ham',
+      numberOfRate: '22+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 9.50,
+      star: 4.3,
+      name: 'Grilled Sausages',
+      shortDesc: 'Assorted grilled sausages',
+      numberOfRate: '13+',
+    ),
+  ];
+  static List<Product> fishList = [
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 9.99,
+      star: 4.3,
+      name: 'Grilled Salmon',
+      shortDesc: 'Grilled salmon fillet with herbs',
+      numberOfRate: '15+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 8.75,
+      star: 4.2,
+      name: 'Tuna Sashimi',
+      shortDesc: 'Fresh tuna sashimi slices',
+      numberOfRate: '20+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 10.99,
+      star: 4.5,
+      name: 'Crispy Cod',
+      shortDesc: 'Crispy battered cod fish',
+      numberOfRate: '12+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 12.50,
+      star: 4.6,
+      name: 'Grilled Halibut',
+      shortDesc: 'Grilled halibut steak with lemon butter',
+      numberOfRate: '18+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 11.25,
+      star: 4.4,
+      name: 'Miso-glazed Sea Bass',
+      shortDesc: 'Miso-glazed sea bass fillet',
+      numberOfRate: '16+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 9.99,
+      star: 4.1,
+      name: 'Salmon Poke Bowl',
+      shortDesc: 'Salmon poke bowl with rice and veggies',
+      numberOfRate: '14+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 13.99,
+      star: 4.7,
+      name: 'Lemon Butter Shrimp',
+      shortDesc: 'Shrimp sautéed in lemon butter sauce',
+      numberOfRate: '22+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 7.75,
+      star: 4.0,
+      name: 'Baked Trout',
+      shortDesc: 'Baked trout with herbs and garlic',
+      numberOfRate: '10+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 8.50,
+      star: 4.2,
+      name: 'Cajun Catfish',
+      shortDesc: 'Cajun-spiced grilled catfish fillet',
+      numberOfRate: '13+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 10.25,
+      star: 4.3,
+      name: 'Teriyaki Salmon',
+      shortDesc: 'Teriyaki-glazed salmon fillet',
+      numberOfRate: '17+',
+    ),
+  ];
+  static List<Product> dessertList = [
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 4.99,
+      star: 4.7,
+      name: 'Chocolate Cupcake',
+      shortDesc: 'Delicious chocolate cupcake with frosting',
+      numberOfRate: '25+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 6.25,
+      star: 4.4,
+      name: 'Strawberry Cheesecake',
+      shortDesc: 'Creamy strawberry cheesecake with graham cracker crust',
+      numberOfRate: '30+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 5.99,
+      star: 4.5,
+      name: 'Fudgy Brownie',
+      shortDesc: 'Rich and fudgy chocolate brownie',
+      numberOfRate: '20+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 7.50,
+      star: 4.8,
+      name: 'Classic Tiramisu',
+      shortDesc: 'Traditional Italian tiramisu dessert',
+      numberOfRate: '35+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 4.75,
+      star: 4.3,
+      name: 'Ice Cream Sundae',
+      shortDesc: 'Vanilla ice cream with toppings and whipped cream',
+      numberOfRate: '22+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 8.99,
+      star: 4.9,
+      name: 'Chocolate Fondue',
+      shortDesc: 'Melting chocolate fondue with fruits and marshmallows',
+      numberOfRate: '40+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 5.25,
+      star: 4.6,
+      name: 'Homemade Apple Pie',
+      shortDesc: 'Warm homemade apple pie with cinnamon',
+      numberOfRate: '28+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 6.50,
+      star: 4.4,
+      name: 'Fruit Tart',
+      shortDesc: 'Colorful fruit tart with pastry cream',
+      numberOfRate: '24+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 4.99,
+      star: 4.5,
+      name: 'Vanilla Panna Cotta',
+      shortDesc: 'Smooth vanilla panna cotta with raspberry sauce',
+      numberOfRate: '27+',
+    ),
+    Product(
+      uri: AssetHelper.imageSalmonPizza,
+      price: 7.25,
+      star: 4.7,
+      name: 'Crème Brûlée',
+      shortDesc: 'Creamy custard dessert with caramelized sugar topping',
+      numberOfRate: '32+',
+    ),
+  ];
+  static List<Product> allProduct = productList + mealList + fishList;
+}

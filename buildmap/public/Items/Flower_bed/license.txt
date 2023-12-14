@@ -1,0 +1,11 @@
+Model Information:
+* title:	Garden Urn
+* source:	https://sketchfab.com/3d-models/garden-urn-c0c7f5fa24704a23b0f3cbdd689b8176
+* author:	Lyskilde (https://sketchfab.com/longtail)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Garden Urn" (https://sketchfab.com/3d-models/garden-urn-c0c7f5fa24704a23b0f3cbdd689b8176) by Lyskilde (https://sketchfab.com/longtail) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

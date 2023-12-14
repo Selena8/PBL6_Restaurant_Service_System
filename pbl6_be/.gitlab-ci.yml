@@ -1,0 +1,32 @@
+stages:
+  - deploy
+  - log
+
+variables:
+
+deploy:
+  tags:
+    - be .net
+  stage: deploy
+  script:
+    - docker stop Be || true && docker rm Be || true
+    - docker image rm be || true
+    - docker build -t be .
+    - docker run -dt -p 5010:80 --rm --name Be be
+  only:
+    - develop
+    - /^release\/.*/
+    - /^hotfix\/.*/
+log:
+  tags:
+    - be .net
+  stage: deploy
+  script:
+    - docker logs Be
+    - export Be_Log=
+    - export Be_Log=$(docker inspect --format='{{.LogPath}}' Be)
+    - echo $Be_Log
+  only:
+    - develop
+    - /^release\/.*/
+    - /^hotfix\/.*/

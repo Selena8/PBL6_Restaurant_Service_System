@@ -1,0 +1,79 @@
+[
+  {
+    "id": "wall_01",
+    "rotation": 0,
+    "type": "wall",
+    "width": 1,
+    "height": 20,
+    "depth": 100,
+    "position": { "x": 0.5, "y": 10, "z": 50 },
+    "color": "#e57f58",
+    "text": "Wall 01"
+  },
+   {
+    "id": "wall_02",
+    "rotation": -45,
+    "type": "wall",
+    "width": 1,
+    "height": 20,
+    "depth": 5,
+    "position": { "x": 29, "y": 10, "z": 16 },
+    "color": "#e57f58",
+    "text": "Wall 01"
+  },
+  {
+    "id": "table_01",
+    "type": "table",
+    "path": "/Items/Table/scene.gltf",
+    "width": 10,
+    "height": 4,
+    "depth": 10,
+    "position": { "x": 2, "y": 0, "z": 6 },
+    "color": "#784c35",
+    "text": "Table 01"
+  },
+  {
+    "id": "table_02",
+    "type": "table",
+    "path": "/Items/Table/scene.gltf",
+    "width": 10,
+    "height": 4,
+    "depth": 10,
+    "position": { "x": 19, "y": 0, "z": 6 },
+    "color": "#784c35",
+    "text": "Table 02"
+  },
+  {
+    "id": "table_03",
+    "type": "table",
+    "path": "/Items/Table/scene.gltf",
+    "width": 10,
+    "height": 4,
+    "depth": 10,
+    "position": { "x": 2, "y": 0, "z": 25 },
+    "color": "#784c35",
+    "text": "Table 03"
+  },
+  {
+    "id": "table_04",
+    "type": "table",
+    "path": "/Items/Table/scene.gltf",
+    "width": 10,
+    "height": 4,
+    "depth": 10,
+    "position": { "x": 19, "y": 0, "z": 25 },
+    "color": "#784c35",
+    "text": "Table 04"
+  },
+  {
+    "id": "flower_bed_01",
+    "type": "flower_bed",
+    "path": "/Items/Flower_bed/scene.gltf",
+    "width": 2,
+    "height": 5,
+    "depth": 2,
+    "position": { "x": 16, "y": 0, "z": 16 },
+    "color": "#958c8b",
+    "text": "Flower Bed 01"
+  }
+]

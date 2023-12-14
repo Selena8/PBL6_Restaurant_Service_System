@@ -1,0 +1,144 @@
+[
+  {
+    "id": "1",
+    "rotation": 0,
+    "type": "wall",
+    "width": 1,
+    "height": 20,
+    "depth": 100,
+    "position": {
+      "x": 0.5,
+      "y": 10,
+      "z": 50
+    },
+    "color": "#e57f58",
+    "text": "Wall"
+  },
+  {
+    "id": "3",
+    "rotation": 0,
+    "type": "table",
+    "path": "/Items/Table/scene.gltf",
+    "width": 10,
+    "height": 4,
+    "depth": 10,
+    "position": {
+      "x": 2.98,
+      "y": 0,
+      "z": 5.96
+    },
+    "color": "#784c35",
+    "text": "Table"
+  },
+  {
+    "id": "5",
+    "rotation": 0,
+    "type": "table",
+    "path": "/Items/Table/scene.gltf",
+    "width": 10,
+    "height": 4,
+    "depth": 10,
+    "position": {
+      "x": 3.04,
+      "y": 0,
+      "z": 19.02
+    },
+    "color": "#784c35",
+    "text": "Table"
+  },
+  {
+    "id": "8",
+    "rotation": 0,
+    "type": "table",
+    "path": "/Items/Table/scene.gltf",
+    "width": 10,
+    "height": 4,
+    "depth": 10,
+    "position": {
+      "x": 31.06,
+      "y": 0,
+      "z": 5.96
+    },
+    "color": "#784c35",
+    "text": "Table"
+  },
+  {
+    "id": "5pr48sjcf",
+    "rotation": 0,
+    "type": "flower_bed",
+    "path": "/Items/Flower_bed/scene.gltf",
+    "width": 2,
+    "height": 5,
+    "depth": 2,
+    "position": {
+      "x": 14.98,
+      "y": 0,
+      "z": 12.92
+    },
+    "color": "#958c8b",
+    "text": "Flower Bed 01"
+  },
+  {
+    "id": "nqshb172m",
+    "rotation": 0,
+    "type": "flower_bed",
+    "path": "/Items/Flower_bed/scene.gltf",
+    "width": 2,
+    "height": 5,
+    "depth": 2,
+    "position": {
+      "x": 29.04,
+      "y": 0,
+      "z": 13
+    },
+    "color": "#958c8b",
+    "text": "Flower Bed 01"
+  },
+  {
+    "id": "ehjnpripm",
+    "rotation": 0,
+    "type": "table",
+    "path": "/Items/Table/scene.gltf",
+    "width": 10,
+    "height": 4,
+    "depth": 10,
+    "position": {
+      "x": 31.02,
+      "y": 0,
+      "z": 18.98
+    },
+    "color": "#784c35",
+    "text": "Table"
+  },
+  {
+    "id": "7kqq23vgk",
+    "rotation": 0,
+    "type": "table",
+    "path": "/Items/Table/scene.gltf",
+    "width": 10,
+    "height": 4,
+    "depth": 10,
+    "position": {
+      "x": 16.98,
+      "y": 0,
+      "z": 5.98
+    },
+    "color": "#784c35",
+    "text": "Table"
+  },
+  {
+    "id": "1nz57hnh0",
+    "rotation": 0,
+    "type": "wall",
+    "width": 1,
+    "height": 20,
+    "depth": 5,
+    "position": {
+      "x": 21.5,
+      "y": 10,
+      "z": 19.5
+    },
+    "color": "#e57f58",
+    "text": "Wall"
+  }
+]
