@@ -19,7 +19,8 @@ const config: Config = {
       backgroundColor: {
         primary: "#FE724C",
         white: "#fff",
-        black: "#000"
+        black: "#000",
+        sidebar: "#0F172B"
       }
     },
     fontFamily: {

@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import {IconLogo, NameLogo} from '@/components/icons'
-import Button from '../Button'
+import Button from '../ButtonWithLink'
 import { Icon } from '@iconify/react';
-import { Link, Element } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const links = [
     { text: 'HOME', id: 1, target: 'home' },
@@ -28,7 +28,7 @@ const Navbar = () => {
                         <img src={IconLogo} alt="icon-logo" />
                         <img src={NameLogo} alt="name-logo" />
                     </div>
-                    <div className="navbar-container hidden gap-4 items-center lg:flex">
+                    <div className="navbar-container hidden gap-8 items-center lg:flex">
                         <ul className='navbar-nav flex gap-4'>
                             {links.map(link => (
                                 <li key={link.id} className="nav-item font-semibold text-white hover:text-primary cursor-pointer">

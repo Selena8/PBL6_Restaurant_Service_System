@@ -32,13 +32,13 @@ const Member = () => {
         <div className='container mx-auto'>
       <div className="heading flex flex-col justify-center items-center pt-12 px-3 mb-12">
         <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={100}>
-          <h5 className='relative font-semibold text-[#FE724C] text-[20px] font-pacifico after:content-[""] after:block after:w-[45px] after:h-[2px] after:bg-[#FE724C] after:absolute after:top-[50%] after:right-[-55px]'>
-            Team Members
-          </h5>
+        <h5 className='relative font-semibold text-[#FE724C] text-[20px] font-pacifico after:content-[""] after:block after:w-[45px] after:h-[2px] after:bg-[#FE724C] after:absolute after:top-[50%] after:left-[-55px] before:content-[""] before:block before:w-[45px] before:h-[2px] before:bg-[#FE724C] before:absolute before:top-[50%] before:right-[-55px]'>
+          Team Members
+        </h5>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={200}>
-          <h1 className="text-[40px] font-extrabold font-[Nunito] leading-tight tracking-wider max-[415px]:text-center">
+          <h1 className="text-[40px] font-extrabold font-[Nunito] leading-tight tracking-wider max-[415px]:text-center text-[#0F172B]">
             Our Master Chefs
           </h1>
         </ScrollAnimation>

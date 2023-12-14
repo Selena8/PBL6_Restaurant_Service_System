@@ -1,5 +1,6 @@
 "use client"
 
+import '@/app/globals.css'
 import About from "@/components/About"
 import BookingTable from "@/components/BookingTable"
 import Header from "@/components/Header"
